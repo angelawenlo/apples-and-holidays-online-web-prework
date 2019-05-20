@@ -75,7 +75,6 @@ def all_holidays_with_bbq(holiday_hash)
       binding.pry
       if supplies == "BBQ"
         puts holiday
-
       end
     end
     end
