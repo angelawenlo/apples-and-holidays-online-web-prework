@@ -63,7 +63,8 @@ capitalized_holidays =  ()
     puts "#{seasons.to_s.capitalize}:"
     holidays.each do |holiday, supplies|
      holiday.to_s.split.each do |word|
-       word.capitalize
+       capitalized_holidays << word.capitalize
+       binding.pry
      puts "#{capitalized_holidays}: #{supplies.join(",")}"
    end
 end
