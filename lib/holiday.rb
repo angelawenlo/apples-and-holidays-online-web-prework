@@ -74,7 +74,7 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.each do |holiday, supplies|
       binding.pry
       if supplies == "BBQ"
-        return holiday
+        puts holiday
 
       end
     end
